@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb+srv://shoaib:qwerty123@devops.7kt0iz8.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://123:123@cluster0.nchpjm9.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
